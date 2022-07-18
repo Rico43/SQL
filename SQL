@@ -1,0 +1,5 @@
+grant 权限 on 权限范围  to 用户  identified  by '密码'
+
+(insert update、select、delete、drop、create等)
+
+（all privileges、replication slave等）
