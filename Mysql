@@ -1,0 +1,11 @@
+mysql> select user,host,password from mysql.user;
++--------+------------+-------------------------------------------+
+| user   | host       | password                                  |
++--------+------------+-------------------------------------------+
+| root   | localhost  | *23AE809DDACAF96AF0FD78ED04B6A265E05AA257 |
+| root   | 127.0.0.1  |                                           |
+| znix   | 172.16.1.% | *23AE809DDACAF96AF0FD78ED04B6A265E05AA257 |
+| clsn   | 172.16.1.% | *23AE809DDACAF96AF0FD78ED04B6A265E05AA257 |
+| root   | 10.0.0.1   | *23AE809DDACAF96AF0FD78ED04B6A265E05AA257 |
++--------+------------+-------------------------------------------+
+6 rows in set
